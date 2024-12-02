@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ascend Arena - Home</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: #111;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+            background-color: #000;
+            position: fixed;
+            top: 0;
+            width: 100%;
+            z-index: 100;
+        }
+
+        .logo {
+            font-size: 30px;
+            font-weight: 700;
+            color: #00ffcc;
+        }
+
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        nav a {
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            color: white;
+            transition: background 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #ff00ff;
+        }
+
+        main {
+            margin-top: 120px;
+            padding: 40px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: #00ffcc;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #000;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">Ascend Arena</div>
+        <nav>
+            <a href="Ascend-Arena.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="community.html">Community</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Welcome to Ascend Arena!</h1>
+        <p>Ascend Arena is the ultimate gaming destination for all Minecraft lovers. We offer a community-driven server experience where players can enjoy smooth gameplay and engage with others in a welcoming atmosphere.</p>
+
+        <p>I'm Antonio, the creator of Ascend Arena. I personally manage and pay for the server, with a monthly cost of €12.99. Every player is valued here, and we appreciate every single person who joins us!</p>
+
+        <h2>Server Info</h2>
+        <p>Ascend Arena is powered by a premium server with 16GB of RAM, supporting both Java and Bedrock editions. Our all-inclusive plan includes unlimited player slots and reliable performance for both small and large-scale multiplayer experiences.</p>
+
+        <p>Our server is hosted on a global network for seamless connectivity, ensuring low-latency gameplay. We also offer easy modding options with CurseForge integration and full server customization, so you can shape your Minecraft world exactly as you like.</p>
+
+        <p>Join us today and be part of a thriving Minecraft community!</p>
+    </main>
+    <footer>
+        © 2024 Ascend Arena. All rights reserved.
+    </footer>
+</body>
+</html>
